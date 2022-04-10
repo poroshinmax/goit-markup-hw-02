@@ -1,0 +1,32 @@
+.header-logo-first-part,
+.footer-logo-first-part {
+  color: #2196f3;
+}
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 223px;
+  top: 24px;
+  text-decoration: none;
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
+  text-decoration: none;
+}
