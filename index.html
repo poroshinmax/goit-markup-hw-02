@@ -14,61 +14,87 @@
     <title>Студия</title>
   </head>
   <body>
-    <header>
+    <header class="header-section">
       <a href="./index.html" class="header-logo">
         <span class="header-logo-first-part">Web</span>Studio</a
       >
       <nav class="header-navigation">
-        <ul>
-          <li><a href="./index.html" class="link-nav">Студия</a></li>
-          <li><a href="./portfolio.html" class="link-nav">Портфолио</a></li>
-          <li><a href="" class="link-nav">Контакты</a></li>
+        <ul class="header-list list">
+          <li>
+            <a
+              href="./index.html"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              class="link-nav link"
+              >Студия</a
+            >
+          </li>
+          <li>
+            <a
+              href="./portfolio.html"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              class="link-nav link"
+              >Портфолио</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              class="link-nav link"
+              >Контакты</a
+            >
+          </li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com" class="header-mail"
+      <a href="mailto:info@devstudio.com" class="header-mail accent"
         >info@devstudio.com</a
       >
-      <a href="tel:+380961111111" class="header-tel">+38 096 111 11 11</a>
+      <a href="tel:+380961111111" class="header-tel accent"
+        >+38 096 111 11 11</a
+      >
     </header>
     <main>
       <section class="hero-section">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="hero-button">Заказать услугу</button>
       </section>
-      <section class="benefits-section">
+      <section class="aboun-benefits-section">
         <h2 hidden>Преимущества</h2>
-        <ul class="benefits-list">
+        <ul class="aboun-benefits-list list">
           <li>
-            <h2 class="benefits1">Внимание к деталям</h2>
-            <p class="benefits1-text">
+            <h2 class="aboun-benefits">Внимание к деталям</h2>
+            <p class="benefits-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h2 class="benefits2">Пунктуальность</h2>
-            <p class="benefits2-text">
+            <h2 class="aboun-benefits">Пунктуальность</h2>
+            <p class="benefits-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h2 class="benefits3">Планирование</h2>
-            <p class="benefits3-text">
+            <h2 class="aboun-benefits">Планирование</h2>
+            <p class="benefits-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h2 class="benefits4">Современные технологии</h2>
-            <p class="benefits4-text">
+            <h2 class="aboun-benefits">Современные технологии</h2>
+            <p class="benefits-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
           </li>
         </ul>
         <h2 class="benefits-title">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="img-benefits-list list">
           <li>
             <img
               src="./images/img.jpg1(1).jpg"
@@ -100,7 +126,7 @@
       </section>
       <section class="team-section">
         <h2 class="tiam-title">Наша команда</h2>
-        <ul>
+        <ul class="team-section-list list">
           <li>
             <img
               src="./images/img.jpg-igor(1).jpg"
@@ -109,8 +135,8 @@
               height="260"
               class="team-img1"
             />
-            <h3 class="team-img1-name">Игорь Демьяненко</h3>
-            <p class="team-img1-position">Product Designer</p>
+            <h3 class="team-img-name">Игорь Демьяненко</h3>
+            <p class="team-img-position">Product Designer</p>
           </li>
           <li>
             <img
@@ -120,8 +146,8 @@
               height="260"
               class="team-img2"
             />
-            <h3 class="team-img2-name">Ольга Репина</h3>
-            <p class="team-img2-position">Frontend Developer</p>
+            <h3 class="team-img-name">Ольга Репина</h3>
+            <p class="team-img-position">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -131,8 +157,8 @@
               height="260"
               class="team-img3"
             />
-            <h3 class="team-img3-name">Николай Тарасов</h3>
-            <p class="team-img3-position">Marketing</p>
+            <h3 class="team-img-name">Николай Тарасов</h3>
+            <p class="team-img-position">Marketing</p>
           </li>
           <li>
             <img
@@ -142,8 +168,8 @@
               height="260"
               class="team-img4"
             />
-            <h3 class="team-img4-name">Михаил Ермаков</h3>
-            <p class="team-img4-position">UI Designer</p>
+            <h3 class="team-img-name">Михаил Ермаков</h3>
+            <p class="team-img-position">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -155,22 +181,15 @@
       <address class="footer-address">
         <ul>
           <li>
-            <a
-              href="https://goo.gl/maps/AGJeoBty6rTCcjFy5"
-              target="_blank"
-              rel="nooper, njindex,nofollow"
-              class="footer-address-link"
-            >
-              г. Киев, пр-т Леси Украинки, 26
-            </a>
+            <p class="footer-address-text">г. Киев, пр-т Леси Украинки, 26</p>
           </li>
           <li>
-            <a href="mailto:info@example.com" class="footer-mail"
+            <a href="mailto:info@example.com" class="footer-mail accent"
               >info@example.com</a
             >
           </li>
           <li>
-            <a href="tel:+380991111111" class="footer-mail"
+            <a href="tel:+380991111111" class="footer-tel accent link"
               >+38 099 111 11 11</a
             >
           </li>
