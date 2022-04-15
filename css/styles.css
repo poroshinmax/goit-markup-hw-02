@@ -22,6 +22,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  color: #000000;
   text-decoration: none;
 }
 /* ------------------- HEADER ---------------------*/
@@ -43,6 +44,7 @@ body {
 .accent:hover,
 .accent:focus {
   color: var(--accent-color);
+  cursor: pointer;
 }
 .header-tel {
   font-weight: 500;
@@ -68,7 +70,6 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: #2196f3;
 }
 .hero-title {
   font-weight: 900;
@@ -80,32 +81,33 @@ body {
   color: #ffffff;
 }
 /* -------------benefits-section----------------- */
-
+.hide {
+  visibility: hidden;
 }
 .aboun-benefits-section {
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 .aboun-benefits-list {
 }
 .aboun-benefits {
   font-weight: 700;
-font-size: 14px;
-line-height: 1.14px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--h-text-color);
 }
 .benefits-text {
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .benefits-title {
   font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-color: var(--h-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--h-text-color);
 }
 .img-benefits-list {
 }
@@ -116,13 +118,13 @@ color: var(--h-text-color);
 .benefits-img3 {
 }
 .team-section {
-  background: #F5F4FA;
+  background: #f5f4fa;
 }
 .tiam-title {
   font-size: 36px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-color: var(--h-text-color);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--h-text-color);
 }
 .team-section-list {
 }
@@ -130,15 +132,15 @@ color: var(--h-text-color);
 }
 .team-img-name {
   font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--h-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--h-text-color);
 }
 .team-img-position {
   font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .team-img2 {
 }
@@ -148,24 +150,23 @@ letter-spacing: 0.03em;
 }
 
 .footer {
-  background: #2F303A;
+  background: #2f303a;
 }
 .footer-address {
 }
 .footer-address-text {
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .footer-mail,
 .footer-tel {
   font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel {
-
 }
