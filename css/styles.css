@@ -3,7 +3,7 @@
   --accent-color: #2196f3;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Tahoma" sans-serif;
   color: #757575;
 }
 /* --------------------- LOGO ---------------------*/
@@ -43,8 +43,8 @@ body {
 .link-nav:focus,
 .accent:hover,
 .accent:focus {
-  color: var(--accent-color);
   cursor: pointer;
+  color: var(--accent-color);
 }
 .header-tel {
   font-weight: 500;
@@ -71,6 +71,11 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
+.hero-button:hover,
+.hero-button:focus {
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -81,13 +86,15 @@ body {
   color: #ffffff;
 }
 /* -------------benefits-section----------------- */
-.hide {
-  visibility: hidden;
+.visually-hidden {
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  width: 1px;
+  height: 1px;
 }
 .aboun-benefits-section {
   background: #e5e5e5;
-}
-.aboun-benefits-list {
 }
 .aboun-benefits {
   font-weight: 700;
@@ -109,14 +116,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--h-text-color);
 }
-.img-benefits-list {
-}
-.benefits-img1 {
-}
-.benefits-img2 {
-}
-.benefits-img3 {
-}
 .team-section {
   background: #f5f4fa;
 }
@@ -125,10 +124,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--h-text-color);
-}
-.team-section-list {
-}
-.team-img1 {
 }
 .team-img-name {
   font-weight: 500;
@@ -142,17 +137,8 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.team-img2 {
-}
-.team-img3 {
-}
-.team-img4 {
-}
-
 .footer {
   background: #2f303a;
-}
-.footer-address {
 }
 .footer-address-text {
   font-size: 14px;
@@ -167,6 +153,4 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-.footer-tel {
 }
