@@ -2,9 +2,34 @@
   --h-text-color: #212121;
   --accent-color: #2196f3;
 }
+
 body {
   font-family: "Roboto", "Tahoma" sans-serif;
   color: #757575;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1600px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
 }
 /* --------------------- LOGO ---------------------*/
 .header-logo-first-part,
@@ -12,6 +37,7 @@ body {
   color: #2196f3;
 }
 .header-logo {
+  margin-left: 215px;
   font-family: "Raleway";
   font-size: 26px;
   line-height: 1.19;
@@ -25,13 +51,13 @@ body {
   color: #000000;
   text-decoration: none;
 }
-/* ------------------- HEADER ---------------------*/
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
 }
+
 .link-nav {
   font-weight: 500;
   font-size: 14px;
@@ -46,21 +72,44 @@ body {
   cursor: pointer;
   color: var(--accent-color);
 }
+/* ------------------- HEADER ---------------------*/
+.header-section {
+  padding-top: 24px;
+  padding-bottom: 25;
+}
+.header-section .container {
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  margin-left: 93px;
+}
+.header-item:not(:first-child) {
+  margin-left: 50px;
+}
+.header-connect {
+  margin-left: auto;
+  margin-right: 215px;
+}
 .header-tel {
   font-weight: 500;
   color: #757575;
   text-decoration: none;
+  margin-left: 50px;
 }
 .header-mail {
   font-weight: 500;
   color: #757575;
 }
-.header-section {
-  background-color: white;
-}
 /* -------------------- HERO -----------------------*/
 .hero-section {
   background-color: #2f303a;
+  outline: 1px solid red;
+}
+.hero-section .container {
+  height: 600px;
 }
 
 .hero-button {
