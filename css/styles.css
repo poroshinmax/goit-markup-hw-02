@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Roboto", "Tahoma", sans-serif;
+  font-family: 'Roboto', 'Tahoma', sans-serif;
   color: #757575;
 }
 
@@ -23,13 +23,14 @@ ol {
   padding-left: 0;
   margin: 0;
 }
-
+img {
+  display: block;
+}
 .container {
   width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid red;
 }
 /* --------------------- LOGO ---------------------*/
 .header-logo-first-part,
@@ -38,7 +39,7 @@ ol {
 }
 .header-logo {
   margin-left: 215px;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-size: 26px;
   line-height: 1.19;
   color: #000000;
@@ -50,6 +51,7 @@ ol {
   line-height: 1.19;
   color: #000000;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 .link {
   text-decoration: none;
@@ -102,6 +104,7 @@ ol {
 .header-mail {
   font-weight: 500;
   color: #757575;
+  text-decoration: none;
 }
 /* -------------------- HERO -----------------------*/
 .hero-section {
@@ -113,7 +116,7 @@ ol {
 }
 
 .hero-button {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -121,7 +124,9 @@ ol {
   color: #ffffff;
 }
 .hero-button:hover,
-.hero-button:focus {
+.hero-button:focus,
+.hero-button-list:hover,
+.hero-button-list:focus {
   cursor: pointer;
   background-color: var(--accent-color);
 }
@@ -165,6 +170,7 @@ ol {
   letter-spacing: 0.03em;
   color: var(--h-text-color);
 }
+/* --------------team-section -----------*/
 .team-section {
   background: #f5f4fa;
 }
@@ -186,10 +192,22 @@ ol {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+/* -------------footer------------------------------------------- */
 .footer {
+  padding-top: 60px;
+  padding-left: 200px;
   background: #2f303a;
 }
+.footer .container {
+  display: flex;
+  height: 252px;
+  flex-direction: column;
+}
+.footer-list {
+  margin-bottom: 9px;
+}
 .footer-address-text {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -202,7 +220,45 @@ ol {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
+/* -----------------portfolio----------------- */
 .main-portfolio {
   background-color: #ffffff;
+}
+.btn {
+}
+.btn-list {
+}
+.hero-button-list {
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding: 6px 22px;
+  border-radius: 4px;
+}
+.product {
+}
+.product-list {
+}
+.product-gallery {
+  margin-bottom: 20px;
+}
+.product-img {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--h-text-color);
+  margin-bottom: 4px;
+}
+.product-img-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
