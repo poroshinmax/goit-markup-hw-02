@@ -5,7 +5,6 @@
 
 body {
   font-family: 'Roboto', 'Tahoma', sans-serif;
-  color: #757575;
 }
 
 p,
@@ -49,7 +48,7 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   margin-bottom: 20px;
 }
@@ -148,12 +147,28 @@ img {
   height: 1px;
 }
 .aboun-benefits-section {
-  background: #e5e5e5;
+  background-color: ffffff;
+}
+.aboun-benefits-section .container {
+  width: 1170px;
+  height: 101px;
+  padding-top: 94px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.aboun-benefits {
+  margin-bottom: 10px;
+}
+.aboun-benefits-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .aboun-benefits {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--h-text-color);
@@ -162,6 +177,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  max-width: 270px;
 }
 .benefits-title {
   font-weight: 700;
