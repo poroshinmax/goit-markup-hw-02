@@ -25,19 +25,13 @@ ol {
 img {
   display: block;
 }
-.container {
-  width: 1600px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
+
 /* --------------------- LOGO ---------------------*/
 .header-logo-first-part,
 .footer-logo-first-part {
   color: #2196f3;
 }
 .header-logo {
-  margin-left: 215px;
   font-family: 'Raleway';
   font-size: 26px;
   line-height: 1.19;
@@ -45,7 +39,7 @@ img {
   text-decoration: none;
 }
 .footer-logo {
-  font-weight: 700;
+  font-family: 'Raleway';
   font-size: 26px;
   line-height: 1.19;
   color: #ffffff;
@@ -75,30 +69,19 @@ img {
 }
 /* ------------------- HEADER ---------------------*/
 .header-section {
-  padding-top: 24px;
-  padding-bottom: 25;
 }
 .header-section .container {
-  display: flex;
-  height: 80px;
-  align-items: center;
 }
 .header-list {
-  display: flex;
-  margin-left: 93px;
 }
 .header-item:not(:first-child) {
-  margin-left: 50px;
 }
 .header-connect {
-  margin-left: auto;
-  margin-right: 215px;
 }
 .header-tel {
   font-weight: 500;
   color: #757575;
   text-decoration: none;
-  margin-left: 50px;
 }
 .header-mail {
   font-weight: 500;
@@ -107,11 +90,8 @@ img {
 }
 /* -------------------- HERO -----------------------*/
 .hero-section {
-  background-color: #2f303a;
-  outline: 1px solid red;
 }
 .hero-section .container {
-  height: 600px;
 }
 
 .hero-button {
@@ -133,9 +113,7 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: #ffffff;
 }
 /* -------------benefits-section----------------- */
@@ -149,21 +127,9 @@ img {
 .aboun-benefits-section {
   background-color: ffffff;
 }
-.aboun-benefits-section .container {
-  width: 1170px;
-  height: 101px;
-  padding-top: 94px;
-  margin-right: auto;
-  margin-left: auto;
-}
 .aboun-benefits {
-  margin-bottom: 10px;
 }
 .aboun-benefits-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 .aboun-benefits {
   font-weight: 700;
@@ -210,17 +176,10 @@ img {
 }
 /* -------------footer------------------------------------------- */
 .footer {
-  padding-top: 60px;
-  padding-left: 200px;
   background: #2f303a;
 }
-.footer .container {
-  display: flex;
-  height: 252px;
-  flex-direction: column;
-}
 .footer-list {
-  margin-bottom: 9px;
+  font-style: normal;
 }
 .footer-address-text {
   font-weight: 400;
@@ -247,21 +206,17 @@ img {
 .btn-list {
 }
 .hero-button-list {
-  display: flex;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: #212121;
-  padding: 6px 22px;
-  border-radius: 4px;
 }
 .product {
 }
 .product-list {
 }
 .product-gallery {
-  margin-bottom: 20px;
 }
 .product-img {
   font-weight: 700;
@@ -269,10 +224,8 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--h-text-color);
-  margin-bottom: 4px;
 }
 .product-img-name {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
